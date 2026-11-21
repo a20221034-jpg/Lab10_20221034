@@ -6,8 +6,6 @@ import java.sql.SQLException;
 
 public abstract class DaoBase {
 
-    // Conexion local (laboratorio). En la nube, como MariaDB corre en la
-    // misma VM que Tomcat, "localhost" tambien funciona sin cambios.
     protected final String URL = "jdbc:mysql://localhost:3306/lab10_telecom";
     protected final String USUARIO = "root";
     protected final String CLAVE = "12345678";
