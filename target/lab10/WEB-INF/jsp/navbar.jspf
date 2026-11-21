@@ -1,0 +1,10 @@
+<%-- Navbar comun a todas las paginas (titulo + items Equipos y Resumen) --%>
+<% String ctx = request.getContextPath(); %>
+<div style="background:#1f3a5f;padding:12px;margin-bottom:18px;">
+    <span style="color:#ffffff;font-size:18px;font-weight:bold;">
+        TelecomUniverse &ndash; Inventario de Red
+    </span>
+    <span style="color:#9ab;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+    <a href="<%= ctx %>/equipos" style="color:#ffffff;margin-right:14px;">Equipos</a>
+    <a href="<%= ctx %>/resumen" style="color:#ffffff;">Resumen</a>
+</div>
